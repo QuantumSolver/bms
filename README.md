@@ -1,4 +1,4 @@
-### Bms
+### BMS
 
 Betting Management System
 

@@ -1,5 +1,5 @@
 app_name = "bms"
-app_title = "Bms"
+app_title = "BMS"
 app_publisher = "ExN"
 app_description = "Betting Management System"
 app_email = "marcques@exn1.uk"
@@ -15,7 +15,7 @@ app_license = "agpl-3.0"
 # 	{
 # 		"name": "bms",
 # 		"logo": "/assets/bms/logo.png",
-# 		"title": "Bms",
+# 		"title": "BMS",
 # 		"route": "/bms",
 # 		"has_permission": "bms.api.permission.has_app_permission"
 # 	}
