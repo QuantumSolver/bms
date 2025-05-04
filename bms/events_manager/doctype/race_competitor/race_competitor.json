@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-04-29 16:31:19.288453",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "number",
+  "horse",
+  "jockey",
+  "trump_card",
+  "handicap",
+  "rating",
+  "is_emergency",
+  "weight_carried",
+  "draw_number",
+  "odds"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "number",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Number"
+  },
+  {
+   "fieldname": "horse",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Horse",
+   "options": "Horses"
+  },
+  {
+   "fieldname": "jockey",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Jockey",
+   "options": "Jockey"
+  },
+  {
+   "fieldname": "trump_card",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Trump Card",
+   "options": "None\nEarly Speed\nStrong Finish\nHandles Wet Track\nGood at Turns\nStamina\nConsistent\nVersatile"
+  },
+  {
+   "columns": 1,
+   "fieldname": "handicap",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Handicap"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rating",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rating"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_emergency",
+   "fieldtype": "Check",
+   "label": "Emergency Replacement"
+  },
+  {
+   "fieldname": "weight_carried",
+   "fieldtype": "Float",
+   "label": "Weight Carried (kg)"
+  },
+  {
+   "fieldname": "draw_number",
+   "fieldtype": "Int",
+   "label": "Draw Number"
+  },
+  {
+   "fieldname": "odds",
+   "fieldtype": "Int",
+   "label": "odds"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-02 22:38:07.335264",
+ "modified_by": "Administrator",
+ "module": "Events Manager",
+ "name": "Race Competitor",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

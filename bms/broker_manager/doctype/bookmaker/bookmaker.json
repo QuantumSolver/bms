@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-28 15:17:06.586655",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_10tz",
+  "photo",
+  "bookmaker_name",
+  "date_of_birth",
+  "license_type",
+  "license_number",
+  "validity_period",
+  "bookmaker_type",
+  "status",
+  "amended_from",
+  "column_break_jadn",
+  "contact_information",
+  "address",
+  "operating_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_10tz",
+   "fieldtype": "Section Break",
+   "label": "Bookmaker Registration"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "bookmaker_name",
+   "fieldtype": "Data",
+   "label": "Bookmaker Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "license_type",
+   "fieldtype": "Link",
+   "label": "License Type",
+   "options": "License Type"
+  },
+  {
+   "fieldname": "license_number",
+   "fieldtype": "Data",
+   "label": "License Number"
+  },
+  {
+   "fieldname": "validity_period",
+   "fieldtype": "Table",
+   "label": "Validity Period",
+   "options": "Validity Period"
+  },
+  {
+   "fieldname": "bookmaker_type",
+   "fieldtype": "Link",
+   "label": "Bookmaker Type",
+   "options": "Bookmaker Type"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bookmaker",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_jadn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_information",
+   "fieldtype": "Small Text",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "operating_hours",
+   "fieldtype": "Table",
+   "label": "Operating Hours",
+   "options": "Operating Hours"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-29 23:01:23.263718",
+ "modified_by": "Administrator",
+ "module": "Broker Manager",
+ "name": "Bookmaker",
+ "owner": "jonathan.archer@exn1.uk",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-03 23:12:16.315510",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bet_ticket",
+  "bookmaker",
+  "customer_name",
+  "amount",
+  "odds",
+  "status",
+  "payout",
+  "settled",
+  "settlement_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "bet_ticket",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bet Ticket",
+   "options": "Bet Ticket",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bookmaker",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bookmaker",
+   "options": "Bookmaker",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "options": "currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "odds",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Odds",
+   "reqd": 1
+  },
+  {
+   "default": "Lost",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Won\nLost\nVoid",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.status == 'Won'",
+   "fieldname": "payout",
+   "fieldtype": "Currency",
+   "label": "Payout",
+   "options": "currency"
+  },
+  {
+   "default": "0",
+   "fieldname": "settled",
+   "fieldtype": "Check",
+   "label": "Settled"
+  },
+  {
+   "depends_on": "eval:doc.settled",
+   "fieldname": "settlement_date",
+   "fieldtype": "Date",
+   "label": "Settlement Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 23:12:16.315510",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "Bet Settlement Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

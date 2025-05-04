@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-04-28 14:23:00.808040",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "race_track_facilities_section",
+  "column_break_egln",
+  "facility_name",
+  "facility_type",
+  "capacity_optional",
+  "description",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "race_track_facilities_section",
+   "fieldtype": "Section Break",
+   "label": "Race Track Facilities"
+  },
+  {
+   "fieldname": "column_break_egln",
+   "fieldtype": "Column Break",
+   "options": "Operational\nUnder Maintenance\nPlanned"
+  },
+  {
+   "fieldname": "facility_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility Name"
+  },
+  {
+   "fieldname": "facility_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Facility Type",
+   "options": "Grandstand\nSeating\nRestrooms\nConcessions\nParking\nMedical\nStables\nOther"
+  },
+  {
+   "fieldname": "capacity_optional",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Capacity (optional)"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description "
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status "
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-29 23:32:09.462372",
+ "modified_by": "Administrator",
+ "module": "Events Manager",
+ "name": "Race Track Facilities",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

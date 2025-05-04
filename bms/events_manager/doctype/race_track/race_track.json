@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-28 13:06:47.931401",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_9brn",
+  "track_details_column",
+  "track_name",
+  "location",
+  "track_type",
+  "track_length",
+  "status",
+  "column_break_yomr",
+  "phone",
+  "email",
+  "track_facilities_section",
+  "facilities"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_9brn",
+   "fieldtype": "Section Break",
+   "label": "Race Track Registration"
+  },
+  {
+   "fieldname": "track_details_column",
+   "fieldtype": "Column Break",
+   "label": "Track Details"
+  },
+  {
+   "fieldname": "track_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Track Name",
+   "max_height": "30px",
+   "unique": 1,
+   "width": "1"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Location",
+   "max_height": "30px"
+  },
+  {
+   "fieldname": "track_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Track Type",
+   "options": "Turf\nDirt\nSynthetic"
+  },
+  {
+   "fieldname": "track_length",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Track Length",
+   "max_height": "30px"
+  },
+  {
+   "default": "Inactive",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "max_height": "30px",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "column_break_yomr",
+   "fieldtype": "Column Break",
+   "label": "Contact"
+  },
+  {
+   "default": "0",
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "phone",
+   "max_height": "30px"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "track_facilities_section",
+   "fieldtype": "Section Break",
+   "label": "Track Facilities"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "facilities",
+   "fieldtype": "Table",
+   "label": "Facilities",
+   "options": "Race Track Facilities"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-29 23:32:09.547316",
+ "modified_by": "Administrator",
+ "module": "Events Manager",
+ "name": "Race Track",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "track_length,track_type,location,status",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "track_name"
+}

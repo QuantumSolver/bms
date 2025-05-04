@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "BET-.#####",
+ "creation": "2025-05-03 23:12:16.051063",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bookmaker",
+  "race_event",
+  "race",
+  "competitor",
+  "horse",
+  "horse_name",
+  "odds",
+  "amount",
+  "potential_payout",
+  "status",
+  "ticket_qr_code",
+  "customer_name",
+  "customer_contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "bookmaker",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bookmaker",
+   "options": "Bookmaker",
+   "reqd": 1
+  },
+  {
+   "fieldname": "race_event",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Race Event",
+   "options": "Race Events",
+   "reqd": 1
+  },
+  {
+   "fieldname": "race",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Race",
+   "options": "Races",
+   "reqd": 1
+  },
+  {
+   "fieldname": "competitor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Competitor",
+   "options": "Race Competitor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "horse",
+   "fieldtype": "Link",
+   "label": "Horse",
+   "options": "Horses",
+   "reqd": 1
+  },
+  {
+   "fieldname": "horse_name",
+   "fieldtype": "Data",
+   "label": "Horse Name",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "odds",
+   "fieldtype": "Float",
+   "label": "Odds",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "options": "currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "potential_payout",
+   "fieldtype": "Currency",
+   "label": "Potential Payout",
+   "options": "currency",
+   "read_only": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nWon\nLost\nVoid",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ticket_qr_code",
+   "fieldtype": "Attach Image",
+   "label": "Ticket QR Code"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "customer_contact",
+   "fieldtype": "Data",
+   "label": "Customer Contact"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-03 23:12:16.051063",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "Bet Ticket",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

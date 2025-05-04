@@ -1,0 +1,265 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"1wGSeoMD1C\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Statistics</span>\",\"col\":12}},{\"id\":\"2xJLPKQ2d4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Bets Placed (Today)\",\"col\":4}},{\"id\":\"B4mOILgT4u\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Compliance Rate (Current Quarter)\",\"col\":4}},{\"id\":\"VnmjAOfY4c\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Tax Collected (This Month)\",\"col\":4}},{\"id\":\"-IbN9u4wIX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Bookmakers with Outstanding Taxes\",\"col\":4}},{\"id\":\"RXytaLBUXW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Bets Without Tax Tagging (Flagged)\",\"col\":4}},{\"id\":\"jRx6ycXOtY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Number of Tax Audits Conducted (YTD)\",\"col\":4}},{\"id\":\"HVgCXRUR6p\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Daily Average Tax Revenue (Last 30 Days)\",\"col\":4}},{\"id\":\"i6aA0st0-4\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"pEAbd7TzM8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Managements &amp; Reports</b></span>\",\"col\":12}},{\"id\":\"_iroNndqo7\",\"type\":\"card\",\"data\":{\"card_name\":\"Tax Monitoring & Compliance\",\"col\":4}},{\"id\":\"tFbgnWicNW\",\"type\":\"card\",\"data\":{\"card_name\":\"Quick Actions\",\"col\":4}},{\"id\":\"S9NGOGizmB\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Dashboards\",\"col\":4}},{\"id\":\"yHo-LFCunz\",\"type\":\"card\",\"data\":{\"card_name\":\"Charts & Visuals\",\"col\":4}}]",
+ "creation": "2025-05-02 11:20:45.184833",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "income",
+ "idx": 1,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "MRA Manager",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Monitoring & Compliance",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Betting Tax Monitor",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "MRA Odds Dashboard ",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quick Actions",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "View Tax Compliance Status",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Submit Tax Payment",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Generate Tax Invoice for Bookmaker",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Betting Transactions",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trigger Compliance Notice",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports & Dashboards",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Betting Tax Report",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Outstanding Bets Report",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Payment History",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Compliance Summary",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Compliance Summary",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Charts & Visuals",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Collection Trends by Period",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Betting Volume vs. Tax Revenue",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Compliance Score Distribution",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Tax Collection Heatmap",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-04 14:00:56.805352",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "MRA Manager",
+ "number_cards": [
+  {
+   "label": "Total Bets Placed (Today)",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Compliance Rate (Current Quarter)",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Total Tax Collected (This Month)",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Bookmakers with Outstanding Taxes",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Bets Without Tax Tagging (Flagged)",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Number of Tax Audits Conducted (YTD)",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Daily Average Tax Revenue (Last 30 Days)",
+   "number_card_name": "Total License Types"
+  }
+ ],
+ "owner": "km@exn1.uk",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "MRA Manager"
+}

@@ -1,0 +1,281 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"TLYuIYLkv3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Statistics<b></b></span>\",\"col\":12}},{\"id\":\"nC-6zA43Ur\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\" Active Licenses\",\"col\":4}},{\"id\":\"XnRjsngGRH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total License Types\",\"col\":4}},{\"id\":\"QUVR7gvbvF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Organizer Licenses\",\"col\":4}},{\"id\":\"pcN1NX_KJ-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Bookmaker Licenses\",\"col\":4}},{\"id\":\"euem4dpFqS\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Stable Licenses\",\"col\":4}},{\"id\":\"x8G9Z2PVvi\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Trainer Licenses\",\"col\":4}},{\"id\":\"GLSrjlBCB_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Jockey Licenses\",\"col\":4}},{\"id\":\"I8-B_iB2Yo\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lJgzj7m1HL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"License Type\",\"col\":3}},{\"id\":\"UMXJDnb0IM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Registration License\",\"col\":3}},{\"id\":\"Yr7SEjwx4N\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"PV0HnpduHe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\">Licensing Overview</span>\",\"col\":12}},{\"id\":\"_VqMOY-75h\",\"type\":\"card\",\"data\":{\"card_name\":\"Organizer Licenses\",\"col\":4}},{\"id\":\"GTlL9peS8c\",\"type\":\"card\",\"data\":{\"card_name\":\"Bookmaker Licenses\",\"col\":4}},{\"id\":\"wm7HBL5qSI\",\"type\":\"card\",\"data\":{\"card_name\":\"Stable Licenses\",\"col\":4}},{\"id\":\"-zTTpK6gzd\",\"type\":\"card\",\"data\":{\"card_name\":\"Trainer Licenses\",\"col\":4}},{\"id\":\"pHY79xXlOH\",\"type\":\"card\",\"data\":{\"card_name\":\"Jockey Licenses\",\"col\":4}}]",
+ "creation": "2025-04-30 13:30:51.501135",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dialpad",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "License Manager",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Organizer Licenses",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Organizer Licenses Dashboard",
+   "link_count": 0,
+   "link_to": "Horse Racing Organizer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Organizer License",
+   "link_count": 0,
+   "link_to": "Horse Racing Organizer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Expired Organizer Licenses",
+   "link_count": 0,
+   "link_to": "Horse Racing Organizer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Licenses",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Licenses Dashboard",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Licenses Agent Dashboard",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Bookmaker License",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Expired Bookmaker Licenses",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stable Licenses",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stable Licenses Dashboard",
+   "link_count": 0,
+   "link_to": "Stable",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Stable License",
+   "link_count": 0,
+   "link_to": "Stable",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Expired Stable Licenses",
+   "link_count": 0,
+   "link_to": "Stable",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trainer Licenses",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trainer Licenses Dashboard",
+   "link_count": 0,
+   "link_to": "Trainer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Trainer License",
+   "link_count": 0,
+   "link_to": "Trainer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Expired Trainer Licenses",
+   "link_count": 0,
+   "link_to": "Trainer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Jockey Licenses",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Jockey Licenses Dashboard",
+   "link_count": 0,
+   "link_to": "Jockey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Jockey License",
+   "link_count": 0,
+   "link_to": "Jockey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Expired Jockey Licenses",
+   "link_count": 0,
+   "link_to": "Jockey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-04 14:00:43.328412",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "License Manager",
+ "number_cards": [
+  {
+   "label": " Active Licenses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Organizer Licenses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Total License Types",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Bookmaker Licenses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Stable Licenses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Trainer Licenses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Jockey Licenses",
+   "number_card_name": "Total License Types"
+  }
+ ],
+ "owner": "km@exn1.uk",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Add New Registration License",
+   "link_to": "License Type",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "License Type",
+   "link_to": "License Type",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "License Manager"
+}

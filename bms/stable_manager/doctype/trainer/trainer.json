@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-28 15:03:45.074768",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "trainer_registration",
+  "trainer_name",
+  "license_type",
+  "license_number",
+  "validity_period",
+  "associated_stable",
+  "status",
+  "amended_from",
+  "column_break_pvny",
+  "contact_information",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "trainer_registration",
+   "fieldtype": "Section Break",
+   "label": "Trainer Registration"
+  },
+  {
+   "fieldname": "trainer_name",
+   "fieldtype": "Data",
+   "label": "Trainer Name"
+  },
+  {
+   "fieldname": "license_type",
+   "fieldtype": "Link",
+   "label": "License Type",
+   "options": "License Type"
+  },
+  {
+   "fieldname": "license_number",
+   "fieldtype": "Data",
+   "label": "License Number"
+  },
+  {
+   "fieldname": "validity_period",
+   "fieldtype": "Table",
+   "label": "Validity Period ",
+   "options": "Validity Period"
+  },
+  {
+   "fieldname": "associated_stable",
+   "fieldtype": "Link",
+   "label": "Associated Stable",
+   "options": "Stable"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Trainer",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_pvny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_information",
+   "fieldtype": "Small Text",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-29 17:56:40.972110",
+ "modified_by": "km@exn1.uk",
+ "module": "Stable Manager",
+ "name": "Trainer",
+ "owner": "jonathan.archer@exn1.uk",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

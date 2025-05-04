@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-29 16:20:08.952766",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "license_requirement_section",
+  "requirement_name",
+  "requirement_type",
+  "description",
+  "mandatory",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "license_requirement_section",
+   "fieldtype": "Section Break",
+   "label": "License Requirement"
+  },
+  {
+   "fieldname": "requirement_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Requirement Name"
+  },
+  {
+   "fieldname": "requirement_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Requirement Type",
+   "options": "Document\nFee\nTraining\nCertification\nBackground Check\nOther"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "mandatory",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Mandatory\t"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Notes\t"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-29 16:23:54.122282",
+ "modified_by": "km@exn1.uk",
+ "module": "Stable Manager",
+ "name": "License Requirement",
+ "owner": "km@exn1.uk",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

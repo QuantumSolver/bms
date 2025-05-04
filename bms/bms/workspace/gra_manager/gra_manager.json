@@ -1,0 +1,247 @@
+{
+ "charts": [
+  {
+   "chart_name": "Project Summary",
+   "label": "Odds Update Activity (Live Monitor)"
+  },
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Active Licenses by Type"
+  }
+ ],
+ "content": "[{\"id\":\"FxzQhPzkA0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Statistics</span>\",\"col\":12}},{\"id\":\"Upu6ywpE3N\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Licenses\",\"col\":4}},{\"id\":\"ToaZFSa3--\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Bookmakers\",\"col\":4}},{\"id\":\"h4wPV6dhad\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Race Meetings\",\"col\":4}},{\"id\":\"p3Qw-3c8bb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Registered Horses\",\"col\":4}},{\"id\":\"powHTp9OsR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Trainers\",\"col\":4}},{\"id\":\"yCtIQ8Rcsz\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\" Active Jockeys\",\"col\":4}},{\"id\":\"v1I4JhICZl\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\" Total Bets Placed (Today)\",\"col\":4}},{\"id\":\"oygQ4cj20N\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"L1X9xAnrDc\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Odds Update Activity (Live Monitor)\",\"col\":12}},{\"id\":\"1MjvZXQcma\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FFxV58wFhA\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Active Licenses by Type\",\"col\":12}},{\"id\":\"JRkjz67DEC\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"77Fmc4Gp0M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Registrations &amp; Management</span>\",\"col\":12}},{\"id\":\"X1E6uSW-Re\",\"type\":\"card\",\"data\":{\"card_name\":\"Registrations & Licensing\",\"col\":4}},{\"id\":\"HwIlnCP4AY\",\"type\":\"card\",\"data\":{\"card_name\":\"Racing Management\",\"col\":4}},{\"id\":\"MgGakHQ2sw\",\"type\":\"card\",\"data\":{\"card_name\":\"Quick Actions\",\"col\":4}},{\"id\":\"uJaX4_TTnI\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports &amp; Dashboards<b></b></span>\",\"col\":12}},{\"id\":\"9AbPbrSUut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Live Odds Dashboard\",\"col\":3}},{\"id\":\"6pWA-rStpK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"License Expiry Report\",\"col\":3}},{\"id\":\"OUK6Lsvogc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Race Meetings\",\"col\":3}}]",
+ "creation": "2025-05-02 11:17:46.357302",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "image-view",
+ "idx": 1,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "GRA Manager",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Registrations & Licensing",
+   "link_count": 7,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Horse Racing Organizer",
+   "link_count": 0,
+   "link_to": "Horse Racing Organizer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "License Type",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Trainer",
+   "link_count": 0,
+   "link_to": "Trainer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Jockey",
+   "link_count": 0,
+   "link_to": "Jockey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bookmaker Agent",
+   "link_count": 0,
+   "link_to": "Bookmaker Agent",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stable",
+   "link_count": 0,
+   "link_to": "Stable",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Racing Management",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Race Meeting Calendar",
+   "link_count": 0,
+   "link_to": "Race Events",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Race Track",
+   "link_count": 0,
+   "link_to": "Race Track",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Horse",
+   "link_count": 0,
+   "link_to": "Race Track",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quick Actions",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Trainer Registration",
+   "link_count": 0,
+   "link_to": "Trainer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Jockey Registration",
+   "link_count": 0,
+   "link_to": "Jockey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "New Bookmaker Registration",
+   "link_count": 0,
+   "link_to": "Bookmaker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-04 14:00:49.473158",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "GRA Manager",
+ "number_cards": [
+  {
+   "label": "Active Licenses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Registered Horses",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": " Total Bets Placed (Today)",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Active Trainers",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": " Active Jockeys",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Completed Race Meetings",
+   "number_card_name": "Total License Types"
+  },
+  {
+   "label": "Active Bookmakers",
+   "number_card_name": "Total License Types"
+  }
+ ],
+ "owner": "km@exn1.uk",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Live Odds Dashboard",
+   "link_to": "Stable",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "License Expiry Report",
+   "link_to": "Stable",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Race Meetings",
+   "link_to": "Stable",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "GRA Manager"
+}

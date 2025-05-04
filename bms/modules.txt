@@ -1,1 +1,4 @@
 BMS
+Broker Manager
+Events Manager
+Stable Manager

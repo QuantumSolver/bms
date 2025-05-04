@@ -1,0 +1,44 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"yn7JTY-Sc1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Betting Management</span>\",\"col\":12}},{\"id\":\"gaifBZeAUH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Odds Management\",\"col\":3}},{\"id\":\"SQdwCI3o5w\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bets Manager\",\"col\":3}}]",
+ "creation": "2025-05-03 22:32:35.134731",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "money-coins-1",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Betting Management",
+ "links": [],
+ "modified": "2025-05-04 13:30:59.669372",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "Betting Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 38.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Odds Management",
+   "link_to": "oddsmanagement",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bets Manager",
+   "link_to": "bets-manager",
+   "type": "Page"
+  }
+ ],
+ "title": "Betting Management"
+}

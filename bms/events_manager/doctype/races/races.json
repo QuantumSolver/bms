@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-04-28 14:31:44.758856",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "race_details_section",
+  "race_name",
+  "race_time",
+  "distance",
+  "status",
+  "nomination",
+  "first_prize",
+  "second_prize",
+  "third_prize"
+ ],
+ "fields": [
+  {
+   "fieldname": "race_details_section",
+   "fieldtype": "Section Break",
+   "label": "Race Details"
+  },
+  {
+   "columns": 1,
+   "fieldname": "race_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Race Name"
+  },
+  {
+   "columns": 1,
+   "fieldname": "race_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Race Time"
+  },
+  {
+   "columns": 1,
+   "fieldname": "distance",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Distance"
+  },
+  {
+   "columns": 1,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "status",
+   "options": "Scheduled\nCompleted\nCancelled\nAbandoned"
+  },
+  {
+   "fieldname": "nomination",
+   "fieldtype": "Table",
+   "label": "Nomination",
+   "options": "Race Competitor"
+  },
+  {
+   "columns": 1,
+   "fieldname": "first_prize",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "First Prize"
+  },
+  {
+   "columns": 1,
+   "fieldname": "second_prize",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Second Prize"
+  },
+  {
+   "columns": 1,
+   "fieldname": "third_prize",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Third Prize"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-02 22:38:07.474376",
+ "modified_by": "Administrator",
+ "module": "Events Manager",
+ "name": "Races",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

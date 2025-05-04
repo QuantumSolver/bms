@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-28 15:15:45.368599",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_hxof",
+  "type_name",
+  "description",
+  "requirements",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_hxof",
+   "fieldtype": "Section Break",
+   "label": "Bookmaker Type"
+  },
+  {
+   "fieldname": "type_name",
+   "fieldtype": "Select",
+   "label": "Type Name",
+   "options": "Corporate\nIndividual\nLicensed Agent\nOffshore Operator"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "requirements",
+   "fieldtype": "Small Text",
+   "label": "Requirements"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bookmaker Type",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-29 23:00:37.969715",
+ "modified_by": "Administrator",
+ "module": "Broker Manager",
+ "name": "Bookmaker Type",
+ "owner": "jonathan.archer@exn1.uk",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

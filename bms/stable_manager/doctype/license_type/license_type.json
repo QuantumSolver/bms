@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-28 14:14:36.234985",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_s4wh",
+  "license_name",
+  "description",
+  "fees",
+  "requirements",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_s4wh",
+   "fieldtype": "Section Break",
+   "label": "License Types"
+  },
+  {
+   "fieldname": "license_name",
+   "fieldtype": "Select",
+   "label": "License Name ",
+   "options": "Organizer\nBookmaker\nStable\nTrainer\nJockey"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "fees",
+   "fieldtype": "Currency",
+   "label": "Fees",
+   "options": "USD"
+  },
+  {
+   "fieldname": "requirements",
+   "fieldtype": "Table",
+   "label": "Requirements",
+   "options": "License Requirement"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "License Type",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-29 16:26:05.190729",
+ "modified_by": "km@exn1.uk",
+ "module": "Stable Manager",
+ "name": "License Type",
+ "owner": "jonathan.archer@exn1.uk",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

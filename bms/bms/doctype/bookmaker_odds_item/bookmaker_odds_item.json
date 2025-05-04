@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-05-03 17:21:23.151100",
+ "custom": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "competitor",
+  "number",
+  "horse",
+  "horse_name",
+  "odds_f100",
+  "odds_f500",
+  "inventory"
+ ],
+ "fields": [
+  {
+   "fieldname": "competitor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Competitor",
+   "options": "Race Competitor",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Int",
+   "label": "Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "horse",
+   "fieldtype": "Link",
+   "label": "Horse",
+   "options": "Horses",
+   "read_only": 1
+  },
+  {
+   "fieldname": "horse_name",
+   "fieldtype": "Data",
+   "label": "Horse Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "odds_f100",
+   "fieldtype": "Float",
+   "label": "Odds (F100)"
+  },
+  {
+   "fieldname": "odds_f500",
+   "fieldtype": "Float",
+   "label": "Odds (F500)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "inventory",
+   "fieldtype": "Int",
+   "label": "Inventory"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 17:21:23.151100",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "Bookmaker Odds Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
