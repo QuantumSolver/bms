@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-05-03 22:45:35.113905",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-05-03 22:45:35.113905",
+ "modified_by": "Administrator",
+ "module": "BMS",
+ "name": "bets-manager",
+ "owner": "Administrator",
+ "page_name": "bets-manager",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Bets Manager"
+}
